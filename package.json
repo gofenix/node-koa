@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "node app/index.js",
+    "test": "jest test"
+  },
   "dependencies": {
     "@koa/cors": "^2.2.1",
     "dotenv": "^5.0.1",
