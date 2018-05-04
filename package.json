@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node app/index.js",
-    "test": "jest test"
+    "test": "jest test --forceExit"
   },
   "dependencies": {
     "@koa/cors": "^2.2.1",

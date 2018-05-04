@@ -6,3 +6,5 @@ node_js:
 
 sudo: false
 
+script:
+  - "yarn test"
