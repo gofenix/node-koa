@@ -19,7 +19,6 @@ describe('users', () => {
             const res = await request.get(`/v1/users?user=zhu`)
                 .expect('Content-Type', /json/)
                 .expect(200);
-            console.log(res.body);
             expect(res.body.user).toBe('zhu');
         })
     });
