@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const Promise = require("bluebird");
+const mongoose = require('mongoose');
+const Promise = require('bluebird');
 
 const UserSchema = new mongoose.Schema({
   name: {
@@ -22,4 +22,4 @@ Promise.promisifyAll(mongoose.Model.prototype);
 Promise.promisifyAll(mongoose.Query);
 Promise.promisifyAll(mongoose.Query.prototype);
 
-module.exports = mongoose.model("User", UserSchema);
+module.exports = mongoose.model('User', UserSchema);
