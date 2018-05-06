@@ -1,1 +1,1 @@
-exports.mongodbReady = require('./mongodb');
+exports.mongodbReady = require("./mongodb");

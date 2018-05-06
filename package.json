@@ -12,6 +12,7 @@
     "bluebird": "^3.5.1",
     "dotenv": "^5.0.1",
     "jest": "^22.4.3",
+    "kafka-node": "^2.6.1",
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.0",
     "koa-helmet": "^4.0.0",
