@@ -1,3 +1,3 @@
 exports.mongodbReady = require('./mongodb');
 exports.mysqlSequlize = require('./mysql');
-exports.pgSequlize = require('./pg');
+exports.redis = require('./redis');

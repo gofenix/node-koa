@@ -14,9 +14,4 @@ const sequelize = new Sequelize('node-koa', 'root', 'root1234', {
   }
 });
 
-sequelize
-  .authenticate()
-  .then(() => console.log('connection has been established successfully'))
-  .catch(err => console.error('unable to connect to mysql', err));
-
 module.exports = sequelize;
